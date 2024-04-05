@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Guille Bouix | Portfolio</title>
+</head>
+<body>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div >
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo" id="logo">Portfolio</a>
+
+        <i class="fa-sharp fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active" id="nav-home">Home</a>
+            <a href="#skills-content" id="nav-skills">Skills</a>
+            <a href="#portfolio" id="nav-projects">Projects</a>
+            <a href="#contact" id="nav-contact">Contact</a>
+            <button id="language" onclick="toggleLanguage()">ENG</button>
+        </nav>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 id="name">Hi, I'm <span id="name-span">Guille Bouix</span></h1>
+            <h3 id="profession">A <span id="auto-type"></span></h3>
+            <p id="presentacion">Hello! My name is Guillermo Bouix and I'm a software and web developer. 
+                I'm from the province of Misiones, Argentina. I love learning new technologies and
+                 bringing my creative ideas to life with them.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/guille.bx7/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/BouixGuille" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/GuilleBouix" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/guillermo-bouix/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn" id="downloadCV">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/img/profile.png">
+        </div>
+    </section>
+
+    <!--Skills Section Design-->
+    <section class="skills-content" id="skills-content">
+        <h2 class="heading" id="skills-heading">My <span>Skills</span></h2>
+        <div class="skills">
+            <img src="/img/python.png" alt="python" class="icons" title="Python">
+            <img src="/img/javascript.png" alt="javascript" class="icons" title="JavaScript">
+            <img src="/img/html.png" alt="html" class="icons" title="HTML">
+            <img src="/img/css.png" alt="css" class="icons" title="CSS">
+            <img src="/img/postgresql.png" alt="postgresql" class="icons" title="PostgreSQL">
+            <img src="/img/git.png" alt="git" class="icons" title="Git">
+        </div>
+    </section>
+
+    <!--Projects Section Design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading" id="portfolio-heading">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/img/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>QuickSell</h4>
+                    <p id="quicksell-p">QuickSell is a sales and stock management system designed to meet the needs of a wide variety of merchants and sellers. It is aimed at automating tasks related to sales, product registration, and inventory control.</p>
+                    <i class="fa-brands fa-python portfolio-icons">   <i class="fa-solid fa-database"></i></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>MindApp</h4>
+                    <p id="mindapp-p">MindApp is a web application designed to exercise and enhance your memory in a fun and challenging way. This application provides you with the opportunity to test your memorization skills by displaying words on the screen for a specified period of time.</p>
+                    <i class="fa-brands fa-js portfolio-icons"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tasks To Do!</h4>
+                    <p id="tasktodo-p">Tasks To Do! is a web application that allows you to efficiently manage your daily tasks, enabling you to jot down your to-dos, assign them names, and set schedules or dates for completion.</p>
+                    <i class="fa-brands fa-js portfolio-icons"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Words Translator</h4>
+                    <p id="translator-p">This project is a mini word translator. It allows for easy translation of words between Spanish and English. The graphical interface features key elements for an intuitive user experience.</p>
+                    <i class="fa-brands fa-python portfolio-icons" ></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Number Converter</h4>
+                    <p id="converter-p">This is a project dedicated to simplifying the conversion of integer numbers to their equivalents in binary, octal, and hexadecimal systems.</p>
+                    <i class="fa-brands fa-python portfolio-icons" ></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/img/6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p id="calculator-p">Digital calculator developed in Python as a desktop application and with JavaScript as a web application. It allows for basic operations such as addition, subtraction, multiplication, and division.</p>
+                    <i class="fa-brands fa-python portfolio-icons">   <i class="fa-brands fa-js portfolio-icons"></i></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading" id="contact-heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input id="full-name" type="text" placeholder="Full Name" required>
+                <input id="email" type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input id="mobile-number" type="number" placeholder="Mobile Number">
+                <input id="subject" type="text" placeholder="Subject" required>
+            </div>
+            <textarea id="textarea" name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn" id="sendMessage">
+        </form>
+    </section>
+
+    <!--Footer Section Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p id="footer-text">Copyright © 2024 by Guillermo Bouix | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--Scroll Effect-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Typed Effect-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#auto-type', {
+        strings: ['Software Developer', 'Web Developer'],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true,
+        });
+    </script>
+
+    <!--Main JS Script-->
+    <script src="/js/main.js"></script>
+</body>
+</html>
