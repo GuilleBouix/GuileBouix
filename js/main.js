@@ -67,6 +67,7 @@ function toggleLanguage() {
     var calculatorText = document.getElementById('calculator-p');
 
     var footerText = document.getElementById('footer-text');
+    var title = document.getElementById('title')
 
     fullName = document.getElementById('full-name');
     email = document.getElementById('email');
@@ -82,7 +83,8 @@ function toggleLanguage() {
         projects.textContent = 'Proyectos';
         contact.textContent = 'Contacto';
         presentation.textContent = '¡Hola! Me llamo Guillermo Bouix y soy desarrollador de software y web. Soy de la provincia de Misiones, en Argentina. Me encanta aprender nuevas tecnologías y convertir mis ideas creativas en realidad con ellas.';
-        
+        title.innerText = 'Guille Bouix | Portafolio';
+
         downloadCV.textContent = 'Descargar CV';
         sendMessage.value = 'Enviar Mensaje';
 
@@ -131,6 +133,7 @@ function toggleLanguage() {
         downloadCV.textContent = 'Download CV';
         sendMessage.value = 'Send Message';
         presentation.textContent = "Hello! My name is Guillermo Bouix and I'm a software and web developer. I'm from the province of Misiones, Argentina. I love learning new technologies and bringing my creative ideas to life with them.";
+        title.innerText = 'Guille Bouix | Portfolio';
 
         fullName.setAttribute('placeholder', 'Full Name');
         email.setAttribute('placeholder', 'Email Address');
