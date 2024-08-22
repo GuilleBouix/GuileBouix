@@ -29,7 +29,7 @@
                 <li></li>
         </ul>
     </div >
-    
+
     <!--Header Design-->
     <header class="header">
         <a href="#" class="logo" id="logo">Portfolio</a>
@@ -50,14 +50,13 @@
         <div class="home-content">
             <h1 id="name">Hi, I'm <span id="name-span">Guille Bouix</span></h1>
             <h3 id="profession">A <span id="auto-type"></span></h3>
-            <p id="presentacion">Hello! My name is Guillermo Bouix and I'm a software and web developer. 
-                I'm from the province of Misiones, Argentina. I love learning new technologies and
-                 bringing my creative ideas to life with them.</p>
+            <p id="presentacion">I'm a software and web developer. I'm from the province of Misiones, Argentina.
+                I love learning new technologies and bringing my creative ideas to life with them. While I enjoy working on both frontend and backend, my true passion lies in backend development with Python.</p>
             <div class="social-media">
-                <a href="https://www.instagram.com/guille.bx7/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://twitter.com/BouixGuille" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://github.com/GuilleBouix" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/guillermo-bouix/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/guille.bx7/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/5493755653522?text=Hola,%20te%20contacto%20desde%20tu%20portafolio!" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/GuilleBouix" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/guillermo-bouix/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <a href="https://drive.google.com/file/d/1usWuXhCZ1bzd-pMu-ss_9n4_grtZ9IW3/view?usp=sharing" target="_blank" class="btn" id="downloadCV">Download CV</a>
         </div>
@@ -75,7 +74,7 @@
             <img src="/img/javascript.png" alt="javascript" class="icons" title="JavaScript">
             <img src="/img/html.png" alt="html" class="icons" title="HTML">
             <img src="/img/css.png" alt="css" class="icons" title="CSS">
-            <img src="/img/postgresql.png" alt="postgresql" class="icons" title="PostgreSQL">
+            <img src="/img/sql.png" alt="sql" class="icons" title="SQL">
             <img src="/img/git.png" alt="git" class="icons" title="Git">
         </div>
     </section>
@@ -148,13 +147,13 @@
 
         <form id="contact-form">
             <div class="input-box">
-                <input id="full-name" type="text" placeholder="Full Name" name="from_name" required>
+                <input id="full-name" type="text" placeholder="Full Name" name="from_name">
                 <input id="email" type="email" placeholder="Email Address" name="from_email" required>
             </div>
         
             <div class="input-box">
                 <input id="mobile-number" type="number" placeholder="Mobile Number" name="phone_number">
-                <input id="subject" type="text" placeholder="Subject" name="subject" required>
+                <input id="subject" type="text" placeholder="Subject" name="subject">
             </div>
             <textarea id="textarea" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
             <input type="submit" value="Send Message" class="btn" id="sendMessage">
@@ -179,7 +178,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#auto-type', {
-        strings: ['Programmer Analyst', 'Software Developer', 'Web Developer'],
+        strings: ['Software Developer', 'Web Developer'],
         typeSpeed: 80,
         backSpeed: 80,
         loop: true,

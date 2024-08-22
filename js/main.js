@@ -82,7 +82,7 @@ function toggleLanguage() {
         skills.textContent = 'Habilidades';
         projects.textContent = 'Proyectos';
         contact.textContent = 'Contacto';
-        presentation.textContent = '¡Hola! Me llamo Guillermo Bouix y soy desarrollador de software y web. Soy de la provincia de Misiones, en Argentina. Me encanta aprender nuevas tecnologías y convertir mis ideas creativas en realidad con ellas.';
+        presentation.textContent = 'Soy desarrollador de software y web. Soy de la provincia de Misiones, Argentina. Me encanta aprender nuevas tecnologías y convertir mis ideas creativas en realidad con ellas. Aunque disfruto trabajando tanto en frontend como en backend, mi verdadera pasión está en el desarrollo backend con Python.';
         title.innerText = 'Guille Bouix | Portafolio';
 
         downloadCV.textContent = 'Descargar CV';
@@ -132,7 +132,7 @@ function toggleLanguage() {
         contact.textContent = 'Contact';
         downloadCV.textContent = 'Download CV';
         sendMessage.value = 'Send Message';
-        presentation.textContent = "Hello! My name is Guillermo Bouix and I'm a software and web developer. I'm from the province of Misiones, Argentina. I love learning new technologies and bringing my creative ideas to life with them.";
+        presentation.textContent = "I'm a software and web developer. I'm from the province of Misiones, Argentina. I love learning new technologies and bringing my creative ideas to life with them. While I enjoy working on both frontend and backend, my true passion lies in backend development with Python.";
         title.innerText = 'Guille Bouix | Portfolio';
 
         fullName.setAttribute('placeholder', 'Full Name');
